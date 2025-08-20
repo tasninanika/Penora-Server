@@ -19,7 +19,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "https://penora-server.onrender.com",
+    origin: "https://penora-client.vercel.app/",
     credentials: true,
   })
 );
