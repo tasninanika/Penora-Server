@@ -19,8 +19,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    // origin: "https://mern-blog-ha28.onrender.com",
-    origin: "http://localhost:5173",
+    origin: "https://penora-server.onrender.com",
     credentials: true,
   })
 );
